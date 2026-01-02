@@ -1,0 +1,5 @@
+BOT_TOKEN = "ВСТАВЬ_СЮДА_ТОКЕН_БОТА"
+
+DATABASE_URL = "sqlite+aiosqlite:///db.sqlite3"
+
+EMAIL_FROM = "no-reply@example.com"

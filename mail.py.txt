@@ -1,0 +1,6 @@
+import random
+
+def send_code(email: str) -> str:
+    code = str(random.randint(100000, 999999))
+    print(f"КОД ДЛЯ {email}: {code}")  # временно в консоль
+    return code
