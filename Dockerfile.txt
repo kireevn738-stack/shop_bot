@@ -3,5 +3,5 @@ WORKDIR /app
 COPY . /app
 RUN python -m pip install --upgrade pip setuptools wheel
 RUN pip install --no-cache-dir -r requirements.txt
-ENV BOT_TOKEN=${BOT_TOKEN}
+ENV BOT_TOKEN=${8350573268:AAG3jFDklUBVHdz9gl2R5CeKRTJ68yl_JRI}
 CMD ["python", "bot.py"]
